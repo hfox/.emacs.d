@@ -4,4 +4,7 @@
 
 ;; I like tabs, even in python.
 (add-hook 'python-mode-hook
-	  (lambda () (setq tab-width 4)(setq indent-tabs-mode t)))
+	  (lambda ()
+	    (setq tab-width 4)
+	    (setq python-indent-offset 4)
+	    (setq indent-tabs-mode t)))
