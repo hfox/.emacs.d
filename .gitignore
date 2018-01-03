@@ -6,3 +6,6 @@
 
 # backups
 *~
+
+#secrets
+secret.el
